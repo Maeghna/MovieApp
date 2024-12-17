@@ -22,6 +22,13 @@ Button b1,b2,b3,b4;
         b2=(Button)findViewById(R.id.searchmovie);
         b3=(Button)findViewById(R.id.viewallmovis);
         b4=(Button)findViewById(R.id.exit);
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i1=new Intent(getApplicationContext(), addMovie.class);
+                startActivity(i1);
+            }
+        });
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
