@@ -1,6 +1,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/bg"
     android:gravity="center"
     android:orientation="vertical">
 
@@ -17,12 +18,14 @@
         android:orientation="vertical">
 
         <TextView
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="USERNAME" />
 
         <EditText
+            android:textColor="@color/black"
             android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -30,12 +33,14 @@
             android:drawableLeft="@drawable/baseline_account_circle_24" />
 
         <TextView
+            android:textColor="@color/black"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:text="PASSWORD" />
 
         <EditText
+            android:textColor="@color/black"
             android:id="@+id/password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
