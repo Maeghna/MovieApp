@@ -29,6 +29,13 @@ Button b1,b2,b3,b4;
                 startActivity(i1);
             }
         });
+        b3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i3=new Intent(getApplicationContext(),viewAllMovies.class);
+                startActivity(i3);
+            }
+        });
         b4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
